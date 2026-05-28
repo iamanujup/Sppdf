@@ -1,5 +1,8 @@
 import os
 import re
+import asyncio
+asyncio.set_event_loop(asyncio.new_event_loop())
+
 from pyrogram import Client, filters
 from PyPDF2 import PdfReader, PdfWriter
 

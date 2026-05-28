@@ -3,9 +3,9 @@ import re
 from pyrogram import Client, filters
 from PyPDF2 import PdfReader, PdfWriter
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("5074166"))
+API_HASH = os.getenv("3cb93a9a9345592f5e6a42020687cdbe")
+BOT_TOKEN = os.getenv("8809092646:AAEPX9hfULZ07jm8p10HxquHLKo7m22XuJw")
 
 app = Client(
     "pdf_study_bot",

@@ -1,4 +1,5 @@
 pyrogram
 tgcrypto
 PyPDF2
-
+pdf2image
+pillow
